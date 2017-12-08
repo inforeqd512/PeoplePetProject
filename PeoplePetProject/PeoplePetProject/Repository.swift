@@ -14,12 +14,19 @@ class Repository {
 
     func latestDataSource(completion: @escaping (([String:[String]]?, Error?) -> Void)) -> Void {
         if self.dataSource == nil {
-            PetsV1API.getPets(completion: { [weak self] (people, error) in
-                self?.dataSource = createDatasource(from: people)
-                completion(self?.dataSource, error)
-            })
+            makeAPICall() { (dataSource, error) in
+                self.dataSource = dataSource
+                completion(self.dataSource, error)
+            }
         } else {
             completion(self.dataSource, nil)
         }
+    }
+
+    func makeAPICall(completion: @escaping (([String:[String]]?, Error?) -> Void)) -> Void {
+        PetsV1API.getPets(completion: { (people, error) in
+            let dataSource = createDatasource(from: people)
+            completion(dataSource, error)
+        })
     }
 }

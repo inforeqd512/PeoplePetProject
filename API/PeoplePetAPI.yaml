@@ -1,0 +1,97 @@
+swagger: '2.0'
+info:
+  description: People and their Pets API 
+  version: 0.0.1
+  title: People and their Pets API
+host: 'agl-developer-test.azurewebsites.net'
+schemes:
+  - http
+tags:
+  - name: PetsV1
+    description: API that gets the pets belonging to people
+paths:
+  /people.json:
+    get:
+      summary: gets the pet list
+      tags:
+        - PetsV1
+      description: gets the pet list
+      operationId: getPets
+      consumes:
+        - application/json
+      produces:
+        - application/json;charset=UTF-8
+      responses:
+        '200':
+          description: Successful Response
+          schema:
+            $ref: '#/definitions/People'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/ModelError'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/ModelError'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/ModelError'
+definitions:
+  ModelError:
+    properties:
+      severity:
+        description: 'Severity of the error. Low, Medium, High, Fatal etc.'
+        type: string
+      message:
+        description: Succinct message describing the error.
+        type: string
+  People:
+    type: array
+    items:
+      $ref: '#/definitions/Person'
+  Person:
+    required:
+        - name
+        - gender
+        - age
+    properties:
+      name:
+        description: Name of person
+        type: string
+        maxLength: 15
+      gender:
+        description: Gender of person
+        type: string
+        default: Male
+        enum:
+          - Male
+          - Female
+      age:
+        description: Age of person
+        type: number
+        format: double
+      pets:
+        type: array
+        items:
+          $ref: '#/definitions/Pet'
+  Pet:
+    required:
+        - name
+        - type
+    properties:
+      name:
+        description: Name of pet
+        type: string
+        maxLength: 15
+      type:
+        description: Type of pet
+        type: string
+        default: Cat
+        enum:
+          - Cat
+          - Dog
+          - Fish

@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+
+target 'PeoplePetProject' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire', '~> 4.5'
+  # Note:
+  # SwaggerClient is generated using `swagger-codegen 2.3.0` which is a snapshot version.
+  # The stable version is `swagger-codegen 2.2.3`.
+  pod 'SwaggerClient', :path => 'Frameworks/SwaggerClient'
+
+  # Pods for PeoplePetProject
+
+  target 'PeoplePetProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PeoplePetProjectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

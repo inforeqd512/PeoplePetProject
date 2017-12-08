@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -120,21 +120,21 @@
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		69E3DF6FC962CB21E698CEFF2D5FEEBF /* Pods-PeoplePetProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeoplePetProject-resources.sh"; sourceTree = "<group>"; };
-		6B369A08DC07B80A87C0A87A69B28D74 /* SwaggerClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwaggerClient.modulemap; sourceTree = "<group>"; };
-		6B4318A2D2CAC55BA5EDF55007732B43 /* Pods_PeoplePetProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PeoplePetProject.framework; path = "Pods-PeoplePetProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B369A08DC07B80A87C0A87A69B28D74 /* SwaggerClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwaggerClient.modulemap; sourceTree = "<group>"; };
+		6B4318A2D2CAC55BA5EDF55007732B43 /* Pods_PeoplePetProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeoplePetProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70267047918DB63053A62433AC11AAFA /* Pods-PeoplePetProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeoplePetProjectUITests-umbrella.h"; sourceTree = "<group>"; };
 		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D99E234ECB8520FD794C276AEB3DB1 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SwaggerClient/Classes/Swaggers/Extensions.swift; sourceTree = "<group>"; };
-		7843527E2CC36F875834987A9F5CE71B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7843527E2CC36F875834987A9F5CE71B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EC057EEA682F0FAE24B863FEF2451D /* Pods-PeoplePetProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeoplePetProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4533F7B136142C4A9591AC4E6A09E5 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = SwaggerClient/Classes/Swaggers/Models.swift; sourceTree = "<group>"; };
-		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		7E60447AC35862B2DC98E4F68F3BD66D /* Pods-PeoplePetProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PeoplePetProject.modulemap"; sourceTree = "<group>"; };
+		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		7E60447AC35862B2DC98E4F68F3BD66D /* Pods-PeoplePetProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PeoplePetProject.modulemap"; sourceTree = "<group>"; };
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		87C4DFF844F94526C79CFAD5EB9B5CD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CCE08B0F5D7154F73D0B4A2BE63074F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1B7A98F5411D8360E48E1DD38074AA /* Pods-PeoplePetProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeoplePetProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		966B656FDCA0F476AB50B724FBA0C4BA /* Pods-PeoplePetProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeoplePetProjectUITests-resources.sh"; sourceTree = "<group>"; };
 		98A3E4AB457BBD6BBCBCD582C98CC24D /* CodableHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableHelper.swift; path = SwaggerClient/Classes/Swaggers/CodableHelper.swift; sourceTree = "<group>"; };
 		9B767D21561920B954115A583CA082DE /* Pods-PeoplePetProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeoplePetProject-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -142,26 +142,26 @@
 		A4CE0521B874CD98C1D2268A0FEB3D3E /* Pods-PeoplePetProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeoplePetProjectTests-frameworks.sh"; sourceTree = "<group>"; };
 		A56B1264C43DEDCA05AF666274C9D2D9 /* Pods-PeoplePetProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeoplePetProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A95C8B648B5FEC75AAAAA02F87BA25C4 /* SwaggerClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwaggerClient-prefix.pch"; sourceTree = "<group>"; };
-		A9691DC4AC97B5B76C1EEE9EF155AEBE /* Pods-PeoplePetProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PeoplePetProjectTests.modulemap"; sourceTree = "<group>"; };
+		A9691DC4AC97B5B76C1EEE9EF155AEBE /* Pods-PeoplePetProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PeoplePetProjectTests.modulemap"; sourceTree = "<group>"; };
 		AB724A5B1CCCE8BCDBE8640B986B3BF1 /* ModelError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelError.swift; sourceTree = "<group>"; };
 		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		C2FDECEA9A9B469E47CB9165BBDDAAEF /* SwaggerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwaggerClient.framework; path = SwaggerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FDECEA9A9B469E47CB9165BBDDAAEF /* SwaggerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwaggerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EC0FC87B7461D21D9223A4C280730D /* Pods-PeoplePetProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeoplePetProject-frameworks.sh"; sourceTree = "<group>"; };
 		C52CF86DE4CBFBB8440FF740C956F633 /* Pods-PeoplePetProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeoplePetProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA58586F9EE4B6E3E56F7E81A6F4C76E /* Pods_PeoplePetProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PeoplePetProjectUITests.framework; path = "Pods-PeoplePetProjectUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA58586F9EE4B6E3E56F7E81A6F4C76E /* Pods_PeoplePetProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeoplePetProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CF4E6828BDEA0663DE27F8C35F1F32 /* SwaggerClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwaggerClient-umbrella.h"; sourceTree = "<group>"; };
 		D6165BD00C693974D5E6B2ABF512FF76 /* Pods-PeoplePetProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeoplePetProjectTests-dummy.m"; sourceTree = "<group>"; };
 		D678402F3FCB440A57D3F2FB6AA303E2 /* SwaggerClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwaggerClient.xcconfig; sourceTree = "<group>"; };
-		DB8F285EE8450088F7BEF635537E8CE9 /* Pods_PeoplePetProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PeoplePetProjectTests.framework; path = "Pods-PeoplePetProjectTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8F285EE8450088F7BEF635537E8CE9 /* Pods_PeoplePetProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeoplePetProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		E5B0AE4DD6C6092860A7683634F4031A /* Pods-PeoplePetProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeoplePetProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		EBA9E1958BBCF8B13A71E47A0596B5FE /* Pods-PeoplePetProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeoplePetProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F19940460ACC21458438616E2CB29CCF /* Pods-PeoplePetProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PeoplePetProjectUITests.modulemap"; sourceTree = "<group>"; };
+		F19940460ACC21458438616E2CB29CCF /* Pods-PeoplePetProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PeoplePetProjectUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +249,6 @@
 				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
 				55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -566,7 +565,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -892,6 +891,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

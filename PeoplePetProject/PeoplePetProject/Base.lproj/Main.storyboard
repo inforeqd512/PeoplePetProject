@@ -18,8 +18,8 @@
         <scene sceneID="1DU-H0-0Oe">
             <objects>
                 <collectionViewController id="Ubo-y9-9eU" customClass="PeoplePetCollectionViewController" customModule="PeoplePetProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="kQW-KR-7Mc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="kQW-KR-7Mc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="12" minimumInteritemSpacing="5" id="Jn6-se-Mcg">
@@ -75,7 +75,7 @@
                             <outlet property="delegate" destination="Ubo-y9-9eU" id="wPl-mj-suQ"/>
                         </connections>
                     </collectionView>
-                    <size key="freeformSize" width="375" height="597"/>
+                    <size key="freeformSize" width="375" height="667"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgx-Zm-yJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

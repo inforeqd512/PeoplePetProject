@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690ECFAB1FDA8229007A5BE2 /* BusinessLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690ECFAA1FDA8229007A5BE2 /* BusinessLogicTests.swift */; };
 		695080F51FD9FCC4008F1AF7 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695080F41FD9FCC4008F1AF7 /* Mocks.swift */; };
 		695080F61FD9FCE2008F1AF7 /* MockingURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695080F21FD9FB08008F1AF7 /* MockingURLProtocol.swift */; };
 		696774AD1FDA002800738AFE /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = 696774AC1FDA002800738AFE /* people.json */; };
@@ -53,6 +54,7 @@
 		3DBCF436EA121DE6E4D484FA /* Pods_PeoplePetProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeoplePetProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE1B1A18DC9AA2E2FECE86F /* Pods-PeoplePetProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeoplePetProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeoplePetProjectTests/Pods-PeoplePetProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		5DFC426FAE531A8192B2EC27 /* Pods_PeoplePetProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeoplePetProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690ECFAA1FDA8229007A5BE2 /* BusinessLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLogicTests.swift; sourceTree = "<group>"; };
 		695080F21FD9FB08008F1AF7 /* MockingURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingURLProtocol.swift; sourceTree = "<group>"; };
 		695080F41FD9FCC4008F1AF7 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		696774AC1FDA002800738AFE /* people.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		69DBB59C1FD92A4A00499A9D /* PeoplePetProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				690ECFAA1FDA8229007A5BE2 /* BusinessLogicTests.swift */,
 				69DBB59D1FD92A4A00499A9D /* PeoplePetProjectTests.swift */,
 				6984AB301FDA44D900044E44 /* ViewModelTests.swift */,
 				695080F41FD9FCC4008F1AF7 /* Mocks.swift */,
@@ -508,6 +511,7 @@
 				69DBB59E1FD92A4A00499A9D /* PeoplePetProjectTests.swift in Sources */,
 				6984AB311FDA44D900044E44 /* ViewModelTests.swift in Sources */,
 				695080F51FD9FCC4008F1AF7 /* Mocks.swift in Sources */,
+				690ECFAB1FDA8229007A5BE2 /* BusinessLogicTests.swift in Sources */,
 				695080F61FD9FCE2008F1AF7 /* MockingURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

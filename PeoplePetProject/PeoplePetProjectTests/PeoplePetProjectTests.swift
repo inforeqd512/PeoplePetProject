@@ -7,29 +7,45 @@
 //
 
 import XCTest
+import SwaggerClient
 @testable import PeoplePetProject
 
 class PeoplePetProjectTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
+
+    func testSuccessfulPetAPIResponseFormat() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let expectation = self.expectation(description: "API should return in pets within people")
+        var apiPeople: [Person]?
+        var apiError: Error?
+        MockPetAPI.getPets { (people, error) in
+            apiPeople = people
+            apiError = error
+            expectation.fulfill()
+        }
+
+        self.waitForExpectations(timeout: 1.0) { _ in
+            XCTAssert(apiPeople != nil, "success run of api should return people")
+            XCTAssert(apiPeople?.count == 6, "person count should be 6")
+            XCTAssert(apiPeople?.first?.pets?.count == 2, "bob has 2 pets")
+            XCTAssert(apiError == nil, "no api error")
+        }
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+
+    func testUnSuccessfulPetAPIResponseFormat() {
+
+        let expectation = self.expectation(description: "API should return in pets within people")
+        var apiPeople: [Person]?
+        var apiError: Error?
+        MockPetAPI.getNoPets { (people, error) in
+            apiPeople = people
+            apiError = error
+            expectation.fulfill()
+        }
+
+        self.waitForExpectations(timeout: 1.0) { _ in
+            XCTAssert(apiPeople != nil, "success run of api should return array")
+            XCTAssert(apiPeople?.count == 0, "person count should be 0")
+            XCTAssert(apiError == nil, "no api error")
         }
     }
     

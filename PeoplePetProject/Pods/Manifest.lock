@@ -1,12 +1,20 @@
 PODS:
-  - Alamofire (4.6.0)
+  - Alamofire (4.5.1)
+  - SwaggerClient (0.0.1):
+    - Alamofire (~> 4.5.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - SwaggerClient (from `Frameworks/SwaggerClient`)
+
+EXTERNAL SOURCES:
+  SwaggerClient:
+    :path: Frameworks/SwaggerClient
 
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  SwaggerClient: d17342f46b8d05525c993897bcb9306683a49849
 
-PODFILE CHECKSUM: a3ba7ed1e840f7e2906edf110c57f46eef320fc3
+PODFILE CHECKSUM: 2761025216769c7fe38417a48f6cec335b689191
 
 COCOAPODS: 1.3.1

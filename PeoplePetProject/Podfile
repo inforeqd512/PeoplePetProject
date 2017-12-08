@@ -7,6 +7,10 @@ target 'PeoplePetProject' do
   use_frameworks!
 
   pod 'Alamofire', '~> 4.5'
+  # Note:
+  # SwaggerClient is generated using `swagger-codegen 2.3.0` which is a snapshot version.
+  # The stable version is `swagger-codegen 2.2.3`.
+  pod 'SwaggerClient', :path => 'Frameworks/SwaggerClient'
 
   # Pods for PeoplePetProject
 

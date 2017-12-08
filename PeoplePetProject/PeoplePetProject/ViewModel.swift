@@ -83,7 +83,7 @@ class ViewModel {
     func backgroundColor(for viewType: ViewType) -> RGBColor {
         switch viewType {
         case .header:
-            return RGBColor(red: 211.0/255.0, blue: 211.0/255.0, green: 211.0/255.0, alpha: 1.0)
+            return RGBColor(red: 255.0/255.0, blue: 255.0/255.0, green: 255.0/255.0, alpha: 1.0)
         case .cell:
             return RGBColor(red: 211.0/255.0, blue: 211.0/255.0, green: 211.0/255.0, alpha: 1.0)
         }

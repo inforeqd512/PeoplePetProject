@@ -9,6 +9,13 @@
 import Foundation
 import SwaggerClient
 
+struct RGBColor {
+    let red: CGFloat
+    let blue: CGFloat
+    let green: CGFloat
+    let alpha: CGFloat
+}
+
 class ViewModel {
 
     private let cellReuseIdentifier = "PetCell"
@@ -72,12 +79,12 @@ class ViewModel {
         return dataSource![key(for: indexPath.section)]![indexPath.row]
     }
 
-    func backgroundColor(for viewType: ViewType) -> UIColor {
+    func backgroundColor(for viewType: ViewType) -> RGBColor {
         switch viewType {
         case .header:
-            return UIColor(red: 211.0/255.0, green: 211.0/255.0, blue: 211.0/255.0, alpha: 1.0)
+            return RGBColor(red: 211.0/255.0, blue: 211.0/255.0, green: 211.0/255.0, alpha: 1.0)
         case .cell:
-            return UIColor(red: 211.0/255.0, green: 211.0/255.0, blue: 211.0/255.0, alpha: 1.0)
+            return RGBColor(red: 211.0/255.0, blue: 211.0/255.0, green: 211.0/255.0, alpha: 1.0)
         }
     }
 

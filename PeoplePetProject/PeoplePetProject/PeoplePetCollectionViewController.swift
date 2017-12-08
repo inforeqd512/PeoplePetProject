@@ -45,7 +45,8 @@ class PeoplePetCollectionViewController: UICollectionViewController, UICollectio
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: viewModel.identifier(for: .cell), for: indexPath)
 
         if let cell = cell as? PetCell {
-            cell.backgroundColor = viewModel.backgroundColor(for: .cell)
+            let rgb = viewModel.backgroundColor(for: .cell)
+            cell.backgroundColor = UIColor(red: rgb.red, green: rgb.blue, blue: rgb.green, alpha: rgb.alpha)
             cell.clipsToBounds = true
             cell.layer.cornerRadius = viewModel.bezel(for: .cell)
             cell.label.text = viewModel.cellLabel(for: indexPath)
@@ -59,7 +60,8 @@ class PeoplePetCollectionViewController: UICollectionViewController, UICollectio
 
         case UICollectionElementKindSectionHeader:
             let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: viewModel.identifier(for: .header), for: indexPath as IndexPath) as! GenderSectionView
-            headerView.backgroundColor = viewModel.backgroundColor(for: .header)
+            let rgb = viewModel.backgroundColor(for: .header)
+            headerView.backgroundColor = UIColor(red: rgb.red, green: rgb.blue, blue: rgb.green, alpha: rgb.alpha)
             headerView.imageView.image = UIImage(named: viewModel.headerImageName(for: indexPath.section))
             return headerView
 

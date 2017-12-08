@@ -16,6 +16,7 @@ struct RGBColor {
     let alpha: CGFloat
 }
 
+/// view model for collection view
 class ViewModel {
 
     private let cellReuseIdentifier = "PetCell"

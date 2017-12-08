@@ -10,6 +10,10 @@ import Foundation
 import SwaggerClient
 
 extension Array {
+    /// converts the array elements to dictionary
+    ///
+    /// - Parameter selectKey: property of the objects in the array which should be the key of the Dictionary
+    /// - Returns: dictionary
     public func toDictionary<Key: Hashable>(with selectKey: (Element) -> Key) -> [Key:[Element]] {
         var dict = [Key:[Element]]()
         for element in self {
@@ -25,6 +29,10 @@ extension Array {
     }
 }
 
+/// Creates the datasource for displaying the owner gender and cat names
+///
+/// - Parameter people: peron arrays from the webservice
+/// - Returns: dictionary of owner gender and cat names
 func createDatasource(from people:[Person]?) -> [String:[String]] {
     let x =
         people?

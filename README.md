@@ -18,6 +18,7 @@
 - View model for making view logic testable, thus testing as much as possible via unit tests
 - Business logic separated to make it testable
 - Unit tests for what's important eg. business and view model logic
+- Using Apple's native UI helps in conforming to accessibility 
 
 ## Testing
 - Test coverage reports enabled
